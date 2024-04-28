@@ -45,8 +45,8 @@ mongoose
 
 //api
 app.get("/", (req, res) => {
-    // return res.send("TODO App Server is running");
-    return res.render("firstPage.ejs")
+    return res.send("TODO App Server is running");
+    // return res.render("firstPage.ejs")
 });
 app.get('/register', (req, res) => {
     //return res.send("Register Page");
