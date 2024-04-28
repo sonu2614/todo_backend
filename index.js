@@ -188,7 +188,7 @@ app.post('/login', async (req, res) => {
 })
 
 app.get("/dashboard", isAuth, (req, res) => {
-    return res.render("dashboardPage")
+    return res.render("dashboardPage.ejs")
 
 
 
