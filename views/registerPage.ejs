@@ -1,0 +1,70 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Register Page </title>  
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        background-color: #fff;
+        width: 50%;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+
+    button[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
+</head>         
+</html> 
+<html lang="en">
+<body>    
+    <center> <h1> Register Form </h1> </center>   
+    <form action='/register' method="POST">  
+        <div class="container">   
+            <label for="name">Name : </label>   
+            <input type="text" placeholder="Enter Name" name="name" required>  
+            <label for="email">Email : </label>  
+            <input type="text" placeholder="Enter Email" name="email" required>  
+            <label for="username">Username : </label>    
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label for="password">Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Register</button>   
+        </div>   
+    </form>     
+
+</body>
+</html>

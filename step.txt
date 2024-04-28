@@ -1,0 +1,46 @@
+
+TODO
+Setup of express server
+mongoDb connection
+
+Build 2 Api
+
+Register Page
+Register API
+
+
+Login Page
+LoginAPI
+
+Set the EJS to express view engine
+
+
+Session Base Auth
+Auth Middleware
+
+DashBoard page(Todo Page)
+Logout
+Logout from all the devices
+
+Todo API's
+create
+read
+edit
+delete
+
+Dashboard 
+Axios
+    Create
+    edit
+    delete
+Read Component
+
+Pagination API
+Rate limiting
+Deployment(heroku, railway.com, render.com, vercel)
+
+JWT Email Authentication
+
+schema, queries, operators, aggregate, populate.
+
+

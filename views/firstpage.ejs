@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            margin-left: 10px;
+        }
+
+        /* Login Button Styles */
+        .login-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .login-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Title Animation */
+        h1 {
+            font-size: 3rem;
+            color: #333;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 2s ease-in-out forwards;
+            transition: color 0.5s ease-in-out;
+            margin-top: 20px;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Hover Animation for Title */
+        h1:hover {
+            color: #197dcf;
+            /* Tomato color */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Todo App</div>
+        <div class="right">
+            <a href="/login" class="login-link">
+                <button class="login-button">Login</button>
+            </a>
+            <a href="/register" class="login-link">
+                <button class="login-button">Sing Up</button>
+            </a>
+        </div>
+    </nav>
+    <center><h1>TODO App Server is running</h1></center>
+</body>
+
+</html>
